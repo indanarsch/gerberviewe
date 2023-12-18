@@ -70,7 +70,7 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-transition-group": "^4.3.0",
-    "snap-shot-it": "7.4.1",
+    "snap-shot-it": "^7.4.1",
     "tachyons": "^4.11.1",
     "viewbox": "^1.0.0",
     "webpack-bundle-analyzer": "4.10.1",
