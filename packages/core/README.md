@@ -41,7 +41,7 @@ const renderLayersResult = renderLayers(plotResult)
 const renderBoardResult = renderBoard(renderLayersResult)
 
 await Promise.all([
-  fs.writeFile('top.svg', stringifySvg(renderBoardResult.top))
+  fs.writeFile('top.svg', stringifySvg(renderBoardResult.top)),
   fs.writeFile('bottom.svg', stringifySvg(renderBoardResult.bottom))
 ])
 ```
