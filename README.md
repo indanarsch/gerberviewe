@@ -12,6 +12,17 @@
   </p>
 </div>
 
+> [!IMPORTANT]
+> The tracespace project is on an ✨indefinite hiatus✨, because I ([@mcous](https://github.com/mcous)):
+>
+> - Haven't designed a PCB myself in years, so it's really hard to maintain my interest.
+> - No longer think JS nor SVG are the correct tools for the job of rendering PCBs on the web.
+> - Don't get paid to work on tracespace, nor do I have the energy/desire to seek out such sponsorship.
+>
+> For these reasons, tracespace v5 is likely dead in the water, especially considering I've soured on the fundamental technical approach. I will not be taking tracespace v4 offline, but I will not be opening nor accepting new PRs for v5. See the [main branch][] for the source code for the v4.
+>
+> Since I'd like to jealously guard my ability to come back to this project at a future date with a wildly different approach, I am not interested in seeking new maintainers nor passing this project off to anyone else. Please fork the project if you're interested in taking tracespace forward in your own way! I'm happy to link to any forks here.
+
 ## Work in progress
 
 **Welcome to tracespace v5!** This version of tracespace is still in development, so documentation may not be accurate and package APIs may change without warning.
