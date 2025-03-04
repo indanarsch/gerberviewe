@@ -87,7 +87,7 @@ Plotter.prototype._finishPath = function(doNotOptimize) {
     // check for outline tool
     var tool = !this._plotAsOutline ? this._tool : this._outTool
 
-    if (!this._region && tool.trace.length === 1) {
+    if (!this._region && tool?.trace && tool.trace.length === 1) {
       this.push({type: 'stroke', width: tool.trace[0], path: path})
     } else {
       this.push({type: 'fill', path: path})
