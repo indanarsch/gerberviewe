@@ -45,7 +45,7 @@ See the [main branch][] for the current v4 release.
 | [![xml-id version][]][xml-id npm]                   | [@tracespace/xml-id][]          | XML element ID generation and sanitation utilities.                                         |
 
 [@tracespace/cli]: ./packages/cli
-[@tracespace/core]: ./packages/parser
+[@tracespace/core]: ./packages/core
 [@tracespace/fixtures]: ./packages/fixtures
 [@tracespace/identify-layers]: ./packages/identify-layers
 [@tracespace/parser]: ./packages/parser
